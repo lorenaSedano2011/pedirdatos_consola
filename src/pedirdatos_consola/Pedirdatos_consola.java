@@ -17,10 +17,10 @@ public class Pedirdatos_consola {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner teclado = new Scanner (System.in);
-        System.out.println("escriba el nombre");
-        String nombre = teclado.next();
-        System.out.println("mi nombre es "+ nombre);
+        Scanner teclado = new Scanner (System.in);// scanner (es la clase) teclado es el (objeto)
+        System.out.println("escriba el nombre"); // si debajo de esta linea si esta el onjeto scanner esta pidiendo//
+        String nombre = teclado.next(); // despues del punto son funciones
+        System.out.println("mi nombre es "+ nombre);//debajo de esta linea no esta el objeto de la clase scanner esta mostrando//
     }
     
 }
